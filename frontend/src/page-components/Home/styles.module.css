@@ -1,0 +1,99 @@
+.app {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    color: #3f3f3f;
+    background-color: #fbfbfb;
+    margin-top: 50px;
+}
+
+.icon_container {
+    width: 40px;
+    padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.about_container {
+    width: 65%;
+}
+
+.about_upper_section {
+    display: flex;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 44px;
+}
+
+.before {
+    width: 70px;
+    margin-top: -8px;
+    color: #b7b7b7;
+    margin-right: 20px;
+}
+
+.designation {
+    display: flex;
+    color: #7a7a7a;
+    font-weight: 600;
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.about_content {
+    color: #9c9c9c;
+    margin: 15px 0;
+    font-weight: 600;
+}
+
+.say_hello_button {
+    background-color: #3e3d3d;
+    color: #fff;
+    padding: 24px 30px;
+    border-radius: 15px;
+    margin: 50px 0;
+}
+
+.image_container {
+    width: 50%;
+    overflow: hidden;
+}
+
+.image {
+    width: 70%;
+    height: 90%;
+    border-radius: 50%;
+    border: solid 7px #6c6c6c;
+}
+
+.image:hover {
+    border: solid 6px #6c6c6c;
+    cursor: none;
+}
+
+.about_lower_section {
+    border: none;
+    color: #6f6f6f;
+    margin-top: 50px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 160px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #fbfbfb;
+    border: none;
+}

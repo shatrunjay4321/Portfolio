@@ -1,0 +1,93 @@
+.app {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 280px;
+    padding-top: 130px;
+    background-color: #fbfbfb;
+}
+
+.heading_container {
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    color: #3f3f3f;
+}
+
+.sub_heading {
+    font-size: 16px;
+    color: #989797;
+    margin-top: 20px;
+}
+
+.card_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.profile {
+    width: 300px;
+    height: 320px;
+    border-radius: 20px;
+    border: solid 1px #d5d5d5;
+}
+
+.card_right {
+    width: 50%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    padding: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    border: solid 1px #ecebeb;
+    border-radius: 10px;
+    width: 100px;
+    min-height: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card_name {
+    font-weight: 600;
+    color: #545454;
+}
+
+.card_content {
+    font-size: 11px;
+    color: #888888;
+    margin-top: 10px;
+}
+
+.about {
+    color: #9d9b9b;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.download_button {
+    background-color: #3e3d3d;
+    color: #fff;
+    padding: 24px 30px;
+    border-radius: 15px;
+    width: fit-content;
+
+    span {
+        margin-right: 10px;
+    }
+}

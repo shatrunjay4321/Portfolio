@@ -1,0 +1,38 @@
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    color: #777682;
+    font-weight: 600;
+    font-size: 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fbfbfb;
+    border-bottom: solid 1px #f2f2f2;
+}
+
+.button {
+    cursor: pointer;
+    background-color: #fbfbfb;
+    border: none;
+    margin: 0 10px;
+    padding: 10px;
+    color: #777682;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.name {
+    width: 100px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
