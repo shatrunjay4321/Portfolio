@@ -4,7 +4,7 @@ function About ({reference}) {
   const about = [
     {
       name: 'Experience',
-      content: "1-2 years"
+      content: "3+ years"
     },
     {
       name: 'Completed',
@@ -12,7 +12,7 @@ function About ({reference}) {
     },
     {
       name: 'Company',
-      content: "Brane Enterprises"
+      content: "Innovaccer"
     }
   ]
 
@@ -36,7 +36,7 @@ function About ({reference}) {
                 })}
               </div>
               <div className={styles.about}>Full Stack Developer | 1+ year work experience in Web Development | NIT Allahabad 2023 Graduate | Enjoy solving puzzles and competing on Codeforces, CodeChef, and Leetcode.</div>
-              <button className={styles.download_button} onClick={() => window.open("https://drive.google.com/file/d/1yJ_triS56O8LJHvfdLiGlSDQYVJcdlcR/view?usp=sharing", "_blank")}>
+              <button className={styles.download_button} onClick={() => window.open("https://drive.google.com/file/d/10f-e8f1PsffJAxkcQ_6aOQLJt3T_dXEd/view?usp=sharing", "_blank")}>
                 <span>View Resume</span>
                 <img src="./files.svg" alt="files" />
               </button>
