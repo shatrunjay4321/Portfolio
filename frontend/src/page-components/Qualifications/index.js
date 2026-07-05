@@ -24,8 +24,13 @@ function Qualifications ({reference}) {
   const work_experience = [
     {
       name: "Software Development Engineer 1",
+      company: "Innovaccer",
+      tenure: "October 2024 - Present"
+    },
+    {
+      name: "Software Development Engineer 1",
       company: "Brane Enterprises",
-      tenure: "January 2024 - Present"
+      tenure: "January 2024 - October 2024"
     },
     {
       name: "Software Development Engineer 1",
