@@ -17,7 +17,7 @@ function Home ({scrollToSection, reference}) {
                 <div>
                     <div className={styles.title}>Shatrunjay Srivastava ✋</div>
                     <div className={styles.designation}><div className={styles.before}>_______</div>Software Development Engineer</div>
-                    <div className={styles.about_content}>I'm a Software Developer with 1+ year of experience in frontend and backend stack</div>
+                    <div className={styles.about_content}>I'm a Software Developer with 3+ year of experience in frontend and backend stack</div>
                     <button className={styles.say_hello_button} onClick={() => window.open("https://www.linkedin.com/in/shatrunjay4321/", "_blank")}>Say Hello <img src="./send.svg" alt="send"/></button>
                 </div>
                 <div className={styles.image_container}>
