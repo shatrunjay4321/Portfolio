@@ -62,6 +62,30 @@ function Skills ({reference}) {
                 {
                     skill: "MySql",
                     proficiency: 'Expert'
+                },
+                {
+                    skill: "PostgreSQL",
+                    proficiency: 'Intermediate'
+                },
+                {
+                    skill: "Redis",
+                    proficiency: 'Intermediate'
+                },
+                {
+                    skill: "REST APIs and GraphQL",
+                    proficiency: 'Intermediate'
+                },
+                {
+                    skill: "Docker",
+                    proficiency: 'Intermediate'
+                },
+                {
+                    skill: "Kubernetes",
+                    proficiency: 'Intermediate'
+                },
+                {
+                    skill: "ArgoCD",
+                    proficiency: 'Intermediate'
                 }
             ]
         },
